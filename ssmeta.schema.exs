@@ -1,17 +1,17 @@
 [
   mappings: [
-    "logger.console.backends": [
+    "logger.backends": [
       doc: "Provide documentation for logger.console.backends here.",
-      to: "logger.console.backends",
+      to: "logger.backends",
       datatype: [
         list: :atom
       ],
       default: [
       ]
     ],
-    "logger.console.log_name": [
+    "logger.log_name": [
       doc: "Provide documentation for logger.console.log_name here.",
-      to: "logger.console.log_name",
+      to: "logger.log_name",
       datatype: :binary,
       default: ""
     ],
